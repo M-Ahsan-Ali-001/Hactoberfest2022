@@ -10,10 +10,10 @@ Just fork it and add a hello world to contribute for hacktober fest and send a P
 Get yourself free goodies by just writing valuable code
 Say hi to the world in any language of your choice!
 
-#What is Hacktoberfest?
+# What is Hacktoberfest?
 Hacktoberfest is a program by Digital Ocean and Github, where you can easily win a T-Shirt just by making 4 pull requests in the month of October to any open source projects on Github.
 
-#Steps to follow 📜
+# Steps to follow 📜
 1. Register for Hacktoberfest
 https://hacktoberfest.com/
 2. Fork it 🍴
@@ -37,7 +37,7 @@ If you liked working on this project, please share this project as much
 as you can and star this project to help as many people in opensource as you can.
 
 
-#Steps to Make Changes and contribute using GIT!
+# Steps to Make Changes and contribute using GIT!
 To make your own local copy of the repository you would like to contribute to, let’s first open up a terminal window.
 We’ll use the // git clone // command along with the URL that points to your fork of the repository.
 This URL will be similar to the URL above, except now it will end with // .git.// In the cloud_haiku example above, the URL will look like this:
@@ -47,7 +47,7 @@ You can alternatively copy the URL by using the green “Clone or download” bu
 Once we have the URL, we’re ready to clone the repository. To do this, we’ll combine the git clone command with the repository URL from the command line in a terminal window:
 git clone https://github.com/your-username/Learn-with-Hacktoberfest.git
 
-#4. Create a New Branch
+# 4. Create a New Branch
 To create your branch, from your terminal window, change your directory so that you are working in the directory of the repository. Be sure to use the actual name of the repository (i.e. Hacktoberfest) to change into that directory.
 // cd Hacktoberfest //
 Now, we’ll create our new branch with the git branch command. Make sure you name it descriptively so that others working on the project understand what you are working on.
@@ -69,14 +69,14 @@ If you have a very short message, you can record that with the -m flag and the m
 At this point you can use the git push command to push the changes to the current branch of your forked repository:
 // Example: //
 // git push --set-upstream origin new-branch //
-#5. Update Local Repository
+# 5. Update Local Repository
 While you are working on a project alongside other contributors, it is important for you to keep your local repository up-to-date with the project as you don’t want to make a pull request for code that will cause conflicts. To keep your local copy of the code base updated, you’ll need to sync changes.
 We’ll first go over configuring a remote for the fork, then syncing the fork.
-#6. Configure a Remote for the Fork
+# 6. Configure a Remote for the Fork
 Next, you’ll have to specify a new remote upstream repository for us to sync with the fork. This will be the original repository that you forked from. you’ll have to do this with the git remote add command.
 // git remote add upstream https://github.com/gdscgcu/Learn-with-Hacktoberfest.git
 In this example, // upstream // is the shortname we have supplied for the remote repository since in terms of Git, “upstream” refers to the repository that you cloned from. If you want to add a remote pointer to the repository of a collaborator, you may want to provide that collaborator’s username or a shortened nickname for the shortname.
-#7. Sync the Fork
+# 7. Sync the Fork
 Once you have configured a remote that references the upstream and original repository on GitHub, you are ready to sync your fork of the repository to keep it up-to-date.
 To sync your fork, from the directory of your local repository in a terminal window, you’ll have to use the // git fetch // command to fetch the branches along with their respective commits from the upstream repository. Since you used the shortname “upstream” to refer to the upstream repository, you’ll have to pass that to the command:
 // git fetch upstream //
@@ -84,7 +84,7 @@ Switch to the local master branch of our repository:
 // git checkout master //
 You’ll now have to merge any changes that were made in the original repository’s master branch, that you will access through your local upstream/master branch, with your local master branch:
 // git merge upstream/master //
-#8. Create Pull Request
+# 8. Create Pull Request
 At this point, you are ready to make a pull request to the original repository.
 You should navigate to your forked repository, and press the “New pull request” button on your left-hand side of the page.
 CONTRIBUTORS
